@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { bebas } from './font';
 const speakers = [
   {
     id: 1,
@@ -41,7 +42,11 @@ const speakers = [
 const Speakers = () => {
   return (
     <div className='pb-[100px]'>
-      <h2 className='header-text text-primary-light'>KONUŞMACILARIMIZ</h2>
+      <h2
+        className={`header-text text-primary-light ${bebas.className} tracking-[0.5rem]`}
+      >
+        KONUŞMACILARIMIZ
+      </h2>
 
       <div className='wrapper grid grid-cols-1 justify-center md:grid-cols-3'>
         {speakers.map((speaker) => (

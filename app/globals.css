@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body {
+  font-family: var(--font-open-sans);
+}
+.bebas {
+  font-family: var(--font-bebas-neue);
+}
 @layer utilities {
   .text-dark {
     @apply text-primary-dark;
@@ -14,5 +19,6 @@
   }
   .header-text {
     @apply py-6 text-center text-3xl font-bold uppercase;
+    font-family: var(--font-bebas-neue);
   }
 }

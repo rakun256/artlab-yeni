@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
-
+import { bebas } from './font';
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 
 function classNames(...classes) {
@@ -59,7 +59,11 @@ const FAQ = () => {
   ];
   return (
     <div className='py-[25px]'>
-      <h2 className='header-text text-primary-light'>SIK SORULAN SORULAR</h2>
+      <h2
+        className={`header-text text-primary-light ${bebas.className} tracking-[0.5rem]`}
+      >
+        SIK SORULAN SORULAR
+      </h2>
 
       <div className='wrapper'>
         <div className=''>
