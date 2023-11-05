@@ -1,7 +1,11 @@
-import { Open_Sans } from 'next/font/google';
+import { Open_Sans, Bebas_Neue } from 'next/font/google';
 import './globals.css';
 
-const openSans = Open_Sans({ subsets: ['latin'] });
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--open-sans',
+  weight: ['300', '400', '500', '600', '700', '800'],
+});
 
 export const metadata = {
   title: 'ARTLAB - SKYLAB',
@@ -12,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`debug-screens bg-primary-dark ${openSans.className}`}>
+      <body className={`debug-screens bg-primary-dark ${openSans.className} `}>
         {children}
       </body>
     </html>
