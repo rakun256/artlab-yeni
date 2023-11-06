@@ -5,7 +5,7 @@ const speakers = [
   {
     id: 1,
     name: 'Speaker Name',
-    title: 'Speaker Title',
+    time: 'Speaker Title',
     image: 'speaker.jpeg',
   },
   {
@@ -52,7 +52,7 @@ const Speakers = () => {
         {speakers.map((speaker) => (
           <div className='flex flex-col justify-center pt-10' key={speaker.id}>
             <Image
-              src={'/assets/speakers/speaker.jpeg'}
+              src={'https://placehold.co/400x400/000000/FFFFFF.png'}
               alt='sisecam'
               width={200}
               height={200}
