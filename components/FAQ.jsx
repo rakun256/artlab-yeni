@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Disclosure } from '@headlessui/react';
+import { Disclosure, Transition } from '@headlessui/react';
 import { bebas } from './font';
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 
@@ -82,8 +82,8 @@ const FAQ = () => {
                         <span className='mr-1 flex h-7 items-center'>
                           <ChevronRightIcon
                             className={classNames(
-                              open ? 'rotate-90' : 'rotate-0',
-                              'h-6 w-6 transform [&>path]:stroke-[2]'
+                              open ? 'rotate-90 ' : 'rotate-0',
+                              'h-6 w-6 transform transition ease-out [&>path]:stroke-[2]'
                             )}
                             aria-hidden='true'
                           />
@@ -93,11 +93,25 @@ const FAQ = () => {
                         </span>
                       </Disclosure.Button>
                     </dt>
-                    <Disclosure.Panel as='dd' className='ml-6 mt-2'>
-                      <span className=' text-lg text-white opacity-60'>
-                        {question.description}
-                      </span>
-                    </Disclosure.Panel>
+                    <Transition
+                      show={open}
+                      enter='transition duration-1000 ease-out'
+                      enterFrom='transform scale-95 opacity-0'
+                      enterTo='transform scale-100 opacity-100'
+                      leave='transition duration-300 ease-out'
+                      leaveFrom='transform scale-100 opacity-100'
+                      leaveTo='transform scale-95 opacity-0'
+                    >
+                      <Disclosure.Panel
+                        static
+                        as='dd'
+                        className='ml-6 mt-2 transition'
+                      >
+                        <span className=' text-lg text-white opacity-60'>
+                          {question.description}
+                        </span>
+                      </Disclosure.Panel>
+                    </Transition>
                   </>
                 )}
               </Disclosure>
