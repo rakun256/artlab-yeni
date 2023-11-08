@@ -1,75 +1,21 @@
-import React from 'react';
-import Image from 'next/image';
-import { bebas } from './font';
-const speakers = [
-  {
-    id: 1,
-    name: 'Speaker Name',
-    time: 'Speaker Title',
-    image: 'speaker.jpeg',
-  },
-  {
-    id: 2,
-    name: 'Speaker Name',
-    time: 'Speaker Title',
-    image: 'speaker.jpeg',
-  },
-  {
-    id: 3,
-    name: 'Speaker Name',
-    time: 'Speaker Title',
-    image: 'speaker.jpeg',
-  },
-  {
-    id: 4,
-    name: 'Speaker Name',
-    time: 'Speaker Title',
-    image: 'speaker.jpeg',
-  },
-  {
-    id: 5,
-    name: 'Speaker Name',
-    time: 'Speaker Title',
-    image: 'speaker.jpeg',
-  },
-  {
-    id: 6,
-    name: 'Speaker Name',
-    time: 'Speaker Title',
-    image: 'speaker.jpeg',
-  },
-];
-const Speakers = () => {
-  return (
-    <div className='pb-[100px]'>
-      <h2
-        className={`header-text text-primary-light ${bebas.className} tracking-[0.5rem]`}
-      >
-        KONUŞMACILARIMIZ
-      </h2>
+import React from "react";
+import Speaker from "./Speaker";
 
-      <div className='wrapper grid grid-cols-1 justify-center md:grid-cols-3'>
-        {speakers.map((speaker) => (
-          <div className='flex flex-col justify-center pt-10' key={speaker.id}>
-            <Image
-              src={'https://placehold.co/400x400/000000/FFFFFF.png'}
-              alt='sisecam'
-              width={200}
-              height={200}
-              className='mx-auto justify-center rounded-full border border-8 border-primary-light'
-            />
-            <p className='pt-6 text-center text-2xl	font-bold text-primary-light'>
-              {speaker.name}
-            </p>
+export default function Speakers () {
 
-            <p className='pt-2 text-center text-lg	 text-primary-light'>
-              {speaker.time}
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default Speakers;
+    return(
+        <div className="w-full text-white mt-28 mb-40 p-10 ">
+            <h2 className="header-text text-primary-light tracking-[0.5rem] mb-16">
+              KONUŞMACILARIMIZ
+              </h2>
+            <div className="grid gap-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-auto">
+                <Speaker Name='Speaker Name' Title='Title' Image='?'/>
+                <Speaker Name='Speaker Name' Title='Title' Image='?'/>
+                <Speaker Name='Speaker Name' Title='Title' Image='?'/>
+                <Speaker Name='Speaker Name' Title='Title' Image='?'/>
+                <Speaker Name='Speaker Name' Title='Title' Image='?'/>
+                <Speaker Name='Speaker Name' Title='Title' Image='?'/>
+            </div>
+        </div>
+    )
+}
