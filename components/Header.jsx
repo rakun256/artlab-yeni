@@ -4,7 +4,7 @@ import { bebas, koulen } from './font';
 
 const Header = () => {
   return (
-    <div className=''>
+    <div className='pt-16'>
       <div className='hidden flex-row justify-center pt-[100px] md:flex'>
         <div className='flex h-[375px]  w-[375px] flex-col items-center justify-center rounded-full bg-primary-light'>
           <h1
