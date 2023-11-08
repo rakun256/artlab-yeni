@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`debug-screens bg-primary-dark ${openSans.className} `}>
+      <body className={` bg-primary-dark ${openSans.className} `}>
         {children}
       </body>
     </html>

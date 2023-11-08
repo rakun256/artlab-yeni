@@ -18,7 +18,7 @@ body {
     @apply mx-auto max-w-7xl;
   }
   .header-text {
-    @apply py-6 text-center text-3xl font-bold uppercase;
+    @apply py-10 text-center text-3xl font-bold uppercase;
     font-family: var(--font-bebas-neue);
   }
 }
