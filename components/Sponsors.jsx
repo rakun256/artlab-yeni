@@ -20,7 +20,7 @@ const Sponsors = () => {
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
       <div className='wrapper flex flex-row justify-center '>
-        <div class='item-center mx-auto pt-10'>
+        <div className='item-center mx-auto pt-10'>
           <Image
             src={'/assets/sponsors/altin/sisecam.png'}
             alt='sisecam'

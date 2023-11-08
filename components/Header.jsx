@@ -4,8 +4,8 @@ import { bebas, koulen } from './font';
 
 const Header = () => {
   return (
-    <div className='pt-16'>
-      <div className='hidden flex-row justify-center pt-[100px] md:flex'>
+    <div className=''>
+      <div className='hidden flex-row justify-center pt-[150px] md:flex'>
         <div className='flex h-[375px]  w-[375px] flex-col items-center justify-center rounded-full bg-primary-light'>
           <h1
             className={`bebas	text-9xl font-black	tracking-[40px]	text-primary-light mix-blend-exclusion ${bebas.className}`}
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile Devices */}
-      <div className='flex flex-row justify-center pt-[100px] md:hidden'>
+      <div className='flex flex-row justify-center pt-[150px] md:hidden'>
         <div className='flex h-[250px]  w-[250px] flex-col items-center justify-center rounded-full bg-primary-light'>
           <h1
             className={`text-8xl	font-bold tracking-[20px]	text-primary-light	mix-blend-exclusion ${bebas.className}`}
