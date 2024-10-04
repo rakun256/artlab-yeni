@@ -15,7 +15,7 @@ const Header = () => {
           <p
             className={`text-6xl font-bold text-[#B74B4B] ${koulen.className}`}
           >
-            ‘23
+            ‘24
           </p>
           <p className='text-primary-dark'>Yapay Zeka Zirvesi</p>
         </div>

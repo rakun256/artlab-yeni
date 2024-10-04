@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className='fixed z-10 flex w-full flex-row items-center justify-center border-b-[1px] border-solid border-black bg-primary-dark py-8 text-primary-light'>
       <p className='hidden pl-5 text-lg md:block'>
-        Yıldız Teknik Üniversitesi, 13 Kasım
+        Yıldız Teknik Üniversitesi
       </p>
       <a
         href='https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUNFVYSzJLR09NNjI5U1I5RExRMjBTRk5DSS4u'
