@@ -8,7 +8,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: 'ARTLAB - SKYLAB',
+  title: 'ARTLAB - SKY LAB',
   description:
     'ARTLAB, Yıldız Teknik Üniversitesi SKY LAB: Bilgisayar Bilimleri Kulübü bünyesinde düzenlediğimiz ve yapay zeka alanında uzman kişilerle katılımcılarımızı bir araya getirmeyi hedeflediğimiz bir seminer ve fuaye etkinliğidir.',
 };
