@@ -27,5 +27,11 @@
     "prettier-plugin-tailwindcss": "^0.5.6",
     "tailwindcss": "^3.3.0",
     "tailwindcss-debug-screens": "^2.2.1"
+  },
+  "overrides": {
+        "@tanstack/react-virtual": "3.9.0"
+  },
+  "resolutions": {
+    "@tanstack/virtual-core": "3.9.0"
   }
 }
