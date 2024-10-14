@@ -21,12 +21,12 @@ const Sponsors = () => {
       </div>
       <div className='wrapper flex flex-row justify-center '>
         <div className='item-center mx-auto pt-10'>
-          <Image
+          {/*<Image
             src={'/assets/sponsors/altin/sisecam.png'}
             alt='sisecam'
             width={200}
             height={200}
-          />
+          />*/}
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const Sponsors = () => {
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
       <div className='wrapper grid grid-cols-1 justify-center pt-10 md:grid-cols-3'>
-        <div className='flex flex-row justify-center'>
+       {/* <div className='flex flex-row justify-center'>
           <Image
             src={'/assets/sponsors/urun/haribo.png'}
             alt='sisecam'
@@ -64,7 +64,7 @@ const Sponsors = () => {
             height={200}
             className='justify-center'
           />
-        </div>
+        </div>*/}
       </div>
 
       <div className='flex items-center gap-5 pt-20 md:gap-10'>
@@ -75,7 +75,7 @@ const Sponsors = () => {
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
       <div className='wrapper grid grid-cols-1 justify-center pt-10 md:grid-cols-3'>
-        <div className='flex flex-row justify-center'>
+        {/*<div className='flex flex-row justify-center'>
           <Image
             src={'/assets/sponsors/alan/exar.png'}
             alt='sisecam'
@@ -101,7 +101,7 @@ const Sponsors = () => {
             height={200}
             className='justify-center'
           />
-        </div>
+        </div>*/}
       </div>
     </div>
   );

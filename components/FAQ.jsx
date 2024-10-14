@@ -4,9 +4,11 @@ import { Disclosure, Transition } from '@headlessui/react';
 import { bebas } from './font';
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { questions } from '@/constants/FAQ';
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
+
 const FAQ = () => {
   return (
     <div className='py-[25px]'>
@@ -20,7 +22,7 @@ const FAQ = () => {
         <div className=''>
           {questions.map((question) => (
             <div key={question.id}>
-              {/* Behaivour on Small Screen */}
+              {/* Küçük Ekran Davranışı */}
               <Disclosure
                 defaultOpen={question.defaultOpen}
                 as='div'
@@ -66,7 +68,7 @@ const FAQ = () => {
                   </>
                 )}
               </Disclosure>
-              {/* Behaivour on Big Screen */}
+              {/* Büyük Ekran Davranışı */}
               <div className='hidden pb-8 pt-6 md:grid md:grid-cols-12 md:gap-8'>
                 <dt className='flex flex-row text-base font-medium text-gray-900 md:col-span-5'>
                   <svg
@@ -75,19 +77,19 @@ const FAQ = () => {
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+                    <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
                     <g
                       id='SVGRepo_tracerCarrier'
-                      stroke-linecap='round'
-                      stroke-linejoin='round'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
                     ></g>
                     <g id='SVGRepo_iconCarrier'>
                       <path
                         d='M10 7L15 12L10 17'
                         stroke='#F8FCCD'
-                        stroke-width='1.5'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
+                        strokeWidth='1.5'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
                       ></path>
                     </g>
                   </svg>
