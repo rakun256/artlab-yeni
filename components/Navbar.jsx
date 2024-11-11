@@ -7,7 +7,7 @@ export default function Navbar() {
         Yıldız Teknik Üniversitesi
       </p>
       <a
-        href='https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUNFVYSzJLR09NNjI5U1I5RExRMjBTRk5DSS4u'
+        href='https://skyl.app/artlab-katilimci-formu'
         className='ease flex-shrink-0 flex justify-center rounded-full border-[1px] border-primary-light px-10 py-2 text-lg transition-all hover:scale-[1.1] hover:bg-primary-light hover:text-primary-dark active:scale-[0.8]'
         target='_blank'
       >
