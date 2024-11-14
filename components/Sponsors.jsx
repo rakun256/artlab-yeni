@@ -15,7 +15,7 @@ const Sponsors = () => {
       <div className='-mt-[100px] flex items-center gap-5 md:gap-10'>
         <div className='h-[2px] w-full bg-primary-dark'></div>
         <div className='whitespace-nowrap text-center text-3xl font-bold text-primary-dark'>
-          Altın Sponsor
+          Altın Sponsorlarımız
         </div>
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
@@ -33,12 +33,12 @@ const Sponsors = () => {
       <div className='flex items-center gap-5 pt-20 md:gap-10'>
         <div className='h-[2px] w-full bg-primary-dark'></div>
         <div className='whitespace-nowrap text-center text-3xl font-bold text-primary-dark'>
-          Ürün Sponsorları
+          Bronz Sponsorlarımız
         </div>
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
       <div className='wrapper grid grid-cols-1 justify-center pt-10 md:grid-cols-3'>
-       {/* <div className='flex flex-row justify-center'>
+        {/* <div className='flex flex-row justify-center'>
           <Image
             src={'/assets/sponsors/urun/haribo.png'}
             alt='sisecam'
@@ -70,15 +70,15 @@ const Sponsors = () => {
       <div className='flex items-center gap-5 pt-20 md:gap-10'>
         <div className='h-[2px] w-full bg-primary-dark'></div>
         <div className='whitespace-nowrap text-center text-3xl font-bold text-primary-dark'>
-          Fuaye Alanı Sponsorları
+          Ürün ve Fuaye Sponsorlarımız
         </div>
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
       <div className='wrapper grid grid-cols-1 justify-center pt-10 md:grid-cols-3'>
-        {/*<div className='flex flex-row justify-center'>
+        <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/alan/exar.png'}
-            alt='sisecam'
+            src={'/assets/sponsors/urun_fuaye/durukan_logo.png'}
+            alt='durukan'
             width={200}
             height={200}
             className='justify-center'
@@ -86,8 +86,8 @@ const Sponsors = () => {
         </div>
         <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/alan/summarify.png'}
-            alt='sisecam'
+            src={'/assets/sponsors/urun_fuaye/eker_logo.png'}
+            alt='eker'
             width={200}
             height={200}
             className='justify-center'
@@ -95,13 +95,13 @@ const Sponsors = () => {
         </div>
         <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/alan/sisecam.png'}
-            alt='sisecam'
+            src={'/assets/sponsors/urun_fuaye/mahmood_logo.png'}
+            alt='mahmood'
             width={200}
-            height={200}
+            height={50}
             className='justify-center'
           />
-        </div>*/}
+        </div>
       </div>
     </div>
   );
