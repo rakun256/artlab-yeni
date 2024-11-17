@@ -3,13 +3,13 @@ export const questions = [
     id: 1,
     title: 'Artlab Nedir?',
     description:
-      'SKY LAB tarafından bu sene beşincisi düzenlenen bir yapay zeka zirvesidir.',
+      'SKY LAB tarafından bu sene altıncısı düzenlenen bir yapay zeka zirvesidir.',
   },
   {
     id: 2,
     title: 'Ne zaman ve nerede gerçekleşecek?',
     description:
-      "Etkinliğimiz 13 Kasım'da Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da gerçekleşecektir.",
+      "Etkinliğimiz 25-26 Kasım tarihlerinde iki gün olmak üzere Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da gerçekleşecektir.",
   },
   {
     id: 3,

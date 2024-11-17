@@ -38,10 +38,10 @@ const Sponsors = () => {
         <div className='h-[2px] w-full bg-primary-dark'></div>
       </div>
       <div className='wrapper grid grid-cols-1 justify-center pt-10 md:grid-cols-3'>
-        {/* <div className='flex flex-row justify-center'>
+        <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/urun/haribo.png'}
-            alt='sisecam'
+            src={'/assets/sponsors/bronz/akbank_logo.png'}
+            alt='akbank'
             width={200}
             height={200}
             className='justify-center'
@@ -49,8 +49,8 @@ const Sponsors = () => {
         </div>
         <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/urun/kelloggs.png'}
-            alt='sisecam'
+            src={'/assets/sponsors/bronz/bizigo_logo.png'}
+            alt='bizigo'
             width={200}
             height={200}
             className='justify-center'
@@ -58,13 +58,22 @@ const Sponsors = () => {
         </div>
         <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/urun/nescafe.png'}
-            alt='sisecam'
+            src={'/assets/sponsors/bronz/kocfinans_logo.png'}
+            alt='kocfinans'
             width={200}
             height={200}
             className='justify-center'
           />
-        </div>*/}
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/bronz/softtech_logo.png'}
+            alt='softtech'
+            width={200}
+            height={200}
+            className='justify-center'
+          />
+        </div>
       </div>
 
       <div className='flex items-center gap-5 pt-20 md:gap-10'>
@@ -77,11 +86,11 @@ const Sponsors = () => {
       <div className='wrapper grid grid-cols-1 justify-center pt-10 md:grid-cols-3'>
         <div className='flex flex-row justify-center'>
           <Image
-            src={'/assets/sponsors/urun_fuaye/durukan_logo.png'}
-            alt='durukan'
+            src={'/assets/sponsors/urun_fuaye/cayeks_logo.png'}
+            alt='cayeks'
             width={200}
             height={200}
-            className='justify-center'
+            className='justify-center object-contain'
           />
         </div>
         <div className='flex flex-row justify-center'>
@@ -90,7 +99,52 @@ const Sponsors = () => {
             alt='eker'
             width={200}
             height={200}
-            className='justify-center'
+            className='justify-center object-contain'
+          />
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/nuhun_ankara_logo.png'}
+            alt='nuhun_ankara'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
+          />
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/miuul_logo.png'}
+            alt='miuul'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
+          />
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/webtures_logo.png'}
+            alt='webtures'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
+          />
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/vitago_logo.png'}
+            alt='vitago'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
+          />
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/durukan_logo.png'}
+            alt='durukan'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
           />
         </div>
         <div className='flex flex-row justify-center'>
@@ -98,8 +152,8 @@ const Sponsors = () => {
             src={'/assets/sponsors/urun_fuaye/mahmood_logo.png'}
             alt='mahmood'
             width={200}
-            height={50}
-            className='justify-center'
+            height={200}
+            className='justify-center object-contain'
           />
         </div>
       </div>
