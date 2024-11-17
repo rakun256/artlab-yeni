@@ -24,7 +24,7 @@ const Header = () => {
       <div className='flex flex-col items-center pt-[150px] md:hidden'>
         <div className='flex h-[250px] w-[250px] flex-col items-center justify-center rounded-full bg-primary-light'>
           <h1
-            className={`text-7xl font-bold tracking-[10px] text-primary-light mix-blend-exclusion ${bebas.className}`}
+            className={"text-8xl	font-bold tracking-[20px]	text-primary-light	mix-blend-exclusion ${bebas.className}"}
           >
             ARTLAB
           </h1>
