@@ -21,31 +21,31 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile Devices */}
-      <div className='flex flex-row justify-center pt-[150px] md:hidden'>
-        <div className='flex h-[250px]  w-[250px] flex-col items-center justify-center rounded-full bg-primary-light'>
+      <div className='flex flex-col items-center pt-[150px] md:hidden'>
+        <div className='flex h-[250px] w-[250px] flex-col items-center justify-center rounded-full bg-primary-light'>
           <h1
-            className={`text-8xl	font-bold tracking-[20px]	text-primary-light	mix-blend-exclusion ${bebas.className}`}
+            className={`text-7xl font-bold tracking-[10px] text-primary-light mix-blend-exclusion ${bebas.className}`}
           >
             ARTLAB
           </h1>
           <p
-            className={`text-4xl font-bold text-[#B74B4B] ${koulen.className}`}
+            className={`text-3xl font-bold text-[#B74B4B] ${koulen.className}`}
           >
-            ‘23
+            ‘24
           </p>
         </div>
+        <p className='py-6 text-center text-lg font-semibold text-primary-light'>
+          Yapay Zeka Zirvesi
+        </p>
+        <Image
+          src='/assets/header-dots.svg'
+          alt='header-dots'
+          width={0}
+          height={0}
+          sizes='100vw'
+          style={{ width: '100%', height: 'auto' }}
+        />
       </div>
-      <p className='py-10 text-center font-semibold text-primary-light'>
-        Yapay Zeka Zirvesi
-      </p>
-      <Image
-        src='/assets/header-dots.svg'
-        alt='header-dots'
-        width={0}
-        height={0}
-        sizes='100vw'
-        style={{ width: '100%', height: 'auto' }}
-      />
     </div>
   );
 };

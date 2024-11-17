@@ -6,7 +6,7 @@ const Sponsors = () => {
     <div className=' mt-[100px]  bg-primary-light py-10'>
       <div className='z-50 mx-auto -mt-[150px] h-[300px] w-[300px] rounded-full bg-primary-light'>
         <h2
-          className={`header-text !pt-28 text-primary-dark ${bebas.className} tracking-[0.5rem]`}
+          className={`header-text !pt-28 text-primary-dark ${bebas.className} tracking-normal md:tracking-[0.5rem]`}
         >
           Sponsorlarimiz
         </h2>
@@ -78,7 +78,7 @@ const Sponsors = () => {
 
       <div className='flex items-center gap-5 pt-20 md:gap-10'>
         <div className='h-[2px] w-full bg-primary-dark'></div>
-        <div className='whitespace-nowrap text-center text-3xl font-bold text-primary-dark'>
+        <div className='text-center text-2xl font-bold text-primary-dark sm:text-2xl md:text-3xl'>
           Ürün ve Fuaye Sponsorlarımız
         </div>
         <div className='h-[2px] w-full bg-primary-dark'></div>
