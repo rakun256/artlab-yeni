@@ -17,6 +17,13 @@ export default function Footer() {
         height={50}
         alt='Skylab logo'
       />
+
+      <Image
+        src='/assets/artlab_logo.svg'
+        width={80}
+        height={50}
+        alt='artlab_logo'
+      />
     </div>
   );
 }
