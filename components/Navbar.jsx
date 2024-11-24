@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <div className='fixed z-10 flex w-full items-center justify-between border-b-[1px] border-solid border-black bg-primary-dark p-8 text-primary-light'>
+    <div className='fixed z-10 flex w-full items-center md:justify-between border-b-[1px] border-solid border-black bg-primary-dark p-8 text-primary-light justify-center'>
       <p className='hidden w-1/5 text-left text-lg md:block whitespace-normal break-words'>
         Yıldız Teknik Üniversitesi
       </p>

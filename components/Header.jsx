@@ -21,7 +21,7 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile Devices */}
-      <div className='flex flex-row justify-center pt-[150px] md:hidden'>
+      <div className='flex flex-row justify-center pt-[150px] md:hidden scale-90'>
         <div className='flex h-[250px]  w-[250px] flex-col items-center justify-center rounded-full bg-primary-light'>
           <h1
             className={`text-8xl	font-bold tracking-[20px]	text-primary-light	mix-blend-exclusion ${bebas.className}`}
@@ -31,7 +31,7 @@ const Header = () => {
           <p
             className={`text-4xl font-bold text-[#B74B4B] ${koulen.className}`}
           >
-            ‘23
+            ‘24
           </p>
         </div>
       </div>

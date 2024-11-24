@@ -230,6 +230,24 @@ const Sponsors = () => {
             className='justify-center object-contain'
           />
         </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/sohe_logo.png'}
+            alt='unilab'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
+          />
+        </div>
+        <div className='flex flex-row justify-center'>
+          <Image
+            src={'/assets/sponsors/urun_fuaye/indomie_logo.png'}
+            alt='unilab'
+            width={200}
+            height={200}
+            className='justify-center object-contain'
+          />
+        </div>
       </div>
     </div>
   );
