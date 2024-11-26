@@ -51,7 +51,7 @@ export const speakers = [
 
   {
     id: 9,
-    name: 'Özden Gebizlioğlu Özvural',
+    name: 'Özden Özvural',
     time: 'Arge ve Fikir Hakları Süreç Yöneticisi',
     image: '/assets/speakers/Özden Gebizlioğlu.jpg',
   },
