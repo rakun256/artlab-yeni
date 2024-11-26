@@ -51,14 +51,14 @@ export const speakers = [
 
   {
     id: 9,
-    name: 'Özden Gebizlioğlu Vural',
+    name: 'Özden Gebizlioğlu Özvural',
     time: 'Arge ve Fikir Hakları Süreç Yöneticisi',
     image: '/assets/speakers/Özden Gebizlioğlu.jpg',
   },
   {
     id: 10,
     name: 'Talat Kasımoğlu',
-    time: 'Kredi Riski ve Veri Bilimi Kıdemli Yönetici - Bölüm Lideri',
+    time: 'Kredi Risk Yönetimi Lideri',
     image: '/assets/speakers/Talat Kasımoğlu.jpg',
   },
   {
